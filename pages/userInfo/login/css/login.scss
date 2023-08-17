@@ -1,0 +1,84 @@
+.login-container{
+	width:100%;
+	.banner-bg{
+		width:100%;
+		height:400rpx;
+	}
+	.login-nav{
+		@include flex(space-around);
+		font-size:30rpx;
+		font-weight: bold;
+		color:$c-9;
+		.nav-item{
+			position:relative;
+			margin-bottom:40rpx;
+			&.active{
+				color:$base-color;
+				&:after{
+					content: "";
+					position: absolute;
+					bottom:-20rpx;
+					width:40px;
+					left:50%;
+					transform: translateX(-50%);
+					height:8rpx;
+					border-radius: 4rpx;
+					background-color: $base-color;
+				}
+			}
+		}
+	}
+	.footer-select-container{
+		width:640rpx;
+		margin:50rpx auto;
+		@include flex();
+		color:$c-9;
+		font-size: 30rpx;
+		text-decoration:underline;
+		// margin-top: 50rpx;
+	}
+}
+// /deep/深度选择器，可以影响子组件中的样式
+/deep/ .uni-forms-item__inner{
+	// padding-bottom:24rpx;
+}
+/deep/ .uni-forms-item{
+	// align-items: center;
+	padding-left: 30rpx;
+	border-bottom: 1px solid #eee;
+	// padding-top: 24rpx;
+	background-color: #fff
+}
+/deep/ .uni-forms-item__content{
+	@include flex(flex-start,center);
+	padding-left: 20rpx;
+}
+/deep/ .label-text span{
+	font-size:32rpx;
+}
+/deep/ .is-direction-left{
+	border-bottom: 1px solid #eee;
+	padding-top:24rpx;
+	margin:0;
+	background-color: #fff;
+	padding-bottom: 24rpx;
+}
+/deep/ .uni-forms-item__error{
+	margin:-10rpx;
+}
+/deep/ .uni-easyinput__content-input{
+	padding-left: 0px !important;
+}
+.placeholder{
+	color:#999;
+}
+.login-btn{
+	width:640rpx;
+	height:90rpx;
+	border-radius: 10rpx;
+	background-color: $base-color;
+	color:#fff;
+	font-size: 32rpx;
+	@include flex(center);
+	margin-top: 80rpx;
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/CommentBox/CommentBox"],{2733:function(n,e,t){"use strict";t.r(e);var o=t("4c39"),c=t("8fde");for(var u in c)["default"].indexOf(u)<0&&function(n){t.d(e,n,(function(){return c[n]}))}(u);t("ced9");var i=t("f0c5"),r=Object(i["a"])(c["default"],o["b"],o["c"],!1,null,null,null,!1,o["a"],void 0);e["default"]=r.exports},"4c39":function(n,e,t){"use strict";t.d(e,"b",(function(){return c})),t.d(e,"c",(function(){return u})),t.d(e,"a",(function(){return o}));var o={uniDateformat:function(){return Promise.all([t.e("common/vendor"),t.e("uni_modules/uni-dateformat/components/uni-dateformat/uni-dateformat")]).then(t.bind(null,"06f8"))},CommentBox:function(){return Promise.resolve().then(t.bind(null,"2733"))}},c=function(){var n=this.$createElement;this._self._c},u=[]},"8fde":function(n,e,t){"use strict";t.r(e);var o=t("e061"),c=t.n(o);for(var u in o)["default"].indexOf(u)<0&&function(n){t.d(e,n,(function(){return o[n]}))}(u);e["default"]=c.a},ced9:function(n,e,t){"use strict";var o=t("ed7c"),c=t.n(o);c.a},e061:function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o={name:"CommentBox",components:{CommentBox:function(){Promise.resolve().then(function(){return resolve(t("2733"))}.bind(null,t)).catch(t.oe)}},props:{commentData:Object,isReply:{type:Boolean,default:!1}},data:function(){return{}},methods:{commentReply:function(n){n.isReply&&(n.comment.reply_id=n.comment.comment_id,n.comment.comment_id=this.commentData.comment_id),console.log(n),this.$emit("commentReply",n)}}};e.default=o},ed7c:function(n,e,t){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/CommentBox/CommentBox-create-component',
+    {
+        'components/CommentBox/CommentBox-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("2733"))
+        })
+    },
+    [['components/CommentBox/CommentBox-create-component']]
+]);

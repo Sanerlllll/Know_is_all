@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/TabBar/TabBar"],{"18b9":function(n,e,t){},"595f":function(n,e,t){"use strict";t.d(e,"b",(function(){return i})),t.d(e,"c",(function(){return u})),t.d(e,"a",(function(){return a}));var a={uniIcons:function(){return Promise.all([t.e("common/vendor"),t.e("uni_modules/uni-icons/components/uni-icons/uni-icons")]).then(t.bind(null,"515d"))}},i=function(){var n=this.$createElement;this._self._c},u=[]},6544:function(n,e,t){"use strict";var a=t("18b9"),i=t.n(a);i.a},6797:function(n,e,t){"use strict";(function(n){var a=t("4ea4");Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i=a(t("2eee")),u=a(t("c973")),c={name:"TabBar",props:{labelList:Array,activeIndex:Number},data:function(){return{currentIndex:"item0"}},watch:{activeIndex:function(n){this.currentIndex="item".concat(n)}},methods:{changeActiveIndex:function(n){this.$emit("changeActiveIndex",n)},goLabelAdmin:function(){var e=this;return(0,u.default)(i.default.mark((function t(){return i.default.wrap((function(t){while(1)switch(t.prev=t.next){case 0:return t.next=2,e.checkedLogin();case 2:n.navigateTo({url:"/pages/labelAdmin/labelAdmin"});case 3:case"end":return t.stop()}}),t)})))()}}};e.default=c}).call(this,t("543d")["default"])},"873d":function(n,e,t){"use strict";t.r(e);var a=t("595f"),i=t("d7bb");for(var u in i)["default"].indexOf(u)<0&&function(n){t.d(e,n,(function(){return i[n]}))}(u);t("6544");var c=t("f0c5"),r=Object(c["a"])(i["default"],a["b"],a["c"],!1,null,"40da7d5e",null,!1,a["a"],void 0);e["default"]=r.exports},d7bb:function(n,e,t){"use strict";t.r(e);var a=t("6797"),i=t.n(a);for(var u in a)["default"].indexOf(u)<0&&function(n){t.d(e,n,(function(){return a[n]}))}(u);e["default"]=i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/TabBar/TabBar-create-component',
+    {
+        'components/TabBar/TabBar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("873d"))
+        })
+    },
+    [['components/TabBar/TabBar-create-component']]
+]);
